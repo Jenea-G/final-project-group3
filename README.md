@@ -19,7 +19,10 @@ Develop an interactive To-Do web application where users can manage daily tasks 
 
 
 App Architecture diagram 
-Image 1 (In the public file)
+
+
+<img width="261" height="321" alt="Image1" src="https://github.com/user-attachments/assets/8d7fe5c9-ad72-46d6-b5ba-017ea7b4e48c" />
+
 
 Set up for a Github repo
 
@@ -45,3 +48,6 @@ We pushed the changes to the remote repository(Github).
 Ideally we would add tests to our project and add "Node.js CI Workflow" to the repository then the CI server would detect the new commit, and ran the pipeline in which it will install dependencies and run the tests so if everything was good the pipeline will allow us to push the changes and  deploy ensuring the app is functioning properly . For our small project we will do the testing manually before pushing the changes. 
 
 A Diagram Image 2 (In the public file)
+
+<img width="363" height="378" alt="Image2" src="https://github.com/user-attachments/assets/0de8c603-051f-496b-85f3-a64af8ff14e2" />
+
