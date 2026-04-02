@@ -11,7 +11,7 @@ Develop an interactive To-Do web application where users can manage daily tasks 
 
 
 ## Tech used:
-React App
+> React App
 
 - Install dependencies (npm install).
 - Install server globally (npm install -g serve).
