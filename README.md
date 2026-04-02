@@ -53,3 +53,31 @@ A Diagram Image 2 (In the public file)
 
 <img width="363" height="378" alt="Image2" src="https://github.com/user-attachments/assets/0de8c603-051f-496b-85f3-a64af8ff14e2" />
 
+
+
+----------Jade
+## Build & server Lead 
+
+1. Prepare production build
+-run `npm run build`-> create optimized version of the app.
+-handles bundling, minification, and typeScript type checks.
+
+2. Run production server
+-Run `npm start`to serve the built files via Node.js.
+-Simulates the real deployment environement locally.
+3. Handle invalid requests
+-Prevent users from adding empty tasks.
+-implement in `taskInout.tsx`:
+
+``typescript
+if(task.trim()===""){
+    alert("task cannot be empty"); //Invalid request
+    return;
+}
+# How to test my part
+`npm run dev`
+`npm run build`
+`npm start`
+# test adding task:
+-normal tasks appears in list
+-empty input-> alert shows" tasks cannot be empty" -> OK

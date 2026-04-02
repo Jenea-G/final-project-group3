@@ -1,15 +1,17 @@
+"use client";
 import "./styles.css";
 
-export default function TaskList() {
+export default function TaskList({ tasks }: {tasks:string[]}) {
     return (
         <div className="task-list">
-            {/* first task */}
-            <div className={`task-item`}>
+            
+            {tasks.map((taskText, index)=>(
+            <div className="task-item" key={index}>
 
 
                 <button className="btn-check">✔</button>
 
-                <span className="task-text">text of a task</span>
+                <span className="task-text">{taskText}</span>
 
 
                 <div className="task-actions">
@@ -17,8 +19,10 @@ export default function TaskList() {
                     <button className="btn-delete">Delete</button>
                 </div>
             </div>
-            {/* end of task */}
+            
+            ))}
 
         </div>
     );
 }
+
