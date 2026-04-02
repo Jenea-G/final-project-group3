@@ -1,19 +1,16 @@
-
-Project Idea:
+# Project Idea:
 Develop an interactive To-Do web application where users can manage daily tasks efficiently. The app will allow displaying, adding, completing, editing,  and deleting tasks through a simple, responsive interface.
 
 
 Feature List:
-
-Add Tasks
-Delete Tasks
-Edit a task
-Display a list of task
-Mark the task as completed
+- Add Tasks
+- Delete Tasks
+- Edit a task
+- Display a list of task
+- Mark the task as completed
 
 
 Tech used:
-
 React App
 
 Install dependencies (npm install).
