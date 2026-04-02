@@ -2,7 +2,7 @@
 Develop an interactive To-Do web application where users can manage daily tasks efficiently. The app will allow displaying, adding, completing, editing,  and deleting tasks through a simple, responsive interface.
 
 
-Feature List:
+## Feature List:
 - Add Tasks
 - Delete Tasks
 - Edit a task
@@ -10,12 +10,12 @@ Feature List:
 - Mark the task as completed
 
 
-Tech used:
+## Tech used:
 React App
 
-Install dependencies (npm install).
-Install server globally (npm install -g serve).
-Build production (npm run dev).
+- Install dependencies (npm install).
+- Install server globally (npm install -g serve).
+- Build production (npm run dev).
 
 
 App Architecture diagram 
