@@ -6,36 +6,52 @@
 
 h1 {
     font-size: 40px;
-    color:darkslategrey;
+    color: darkslategrey;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.task-input .input{
-    border: 1px solid darkslategrey;
-    border-radius: 5px;
-    padding: 4px 10px;
-    width: 300px;
-    margin-right: 10px;
+.task-input {
+    display: flex;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
-.btn-add,
-.btn-edit,
-.btn-delete {
-    background-color: darkslategrey;
+.task-input .input {
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    padding: 4px 10px;
+    width: 100%;
+}
+
+.btn-add {
+    display: inline-block;
+}
+
+button:not(.btn-check) {
     color: white;
     padding: 4px 15px;
     border-radius: 5px;
-    margin-right: 10px;
+    min-width: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:not(.btn-check):hover {
+    opacity: 85%;
 }
 
 .btn-edit {
     background-color: darkgoldenrod;
+    margin-right: 10px;
 }
 
 .btn-delete {
     background-color: brown;
+}
+
+.btn-add {
+    background-color: darkslategrey;
 }
 
 .task-item {
@@ -53,11 +69,40 @@ h1 {
 
 .task-text {
     display: inline-block;
-    width: 80%;
+    width: calc(100% - 50px);
     border-bottom: 1px solid darkslategrey;
 }
 
+.task-list {
+    margin-bottom: 100px;
+}
 
+.task-actions {
+    /* margin: 0 auto; */
+    width: fit-content;
+}
 
+h4 {
+    font-weight: 600;
+}
 
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 14px;
+}
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+main {
+    min-height: 80vh;
+}

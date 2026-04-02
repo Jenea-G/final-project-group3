@@ -1,14 +1,20 @@
 import TaskInput from "./components/taskinput";
 import TaskList from "./components/tasklist";
+import Footer from "./components/footer";
 import "./components/styles.css";
 
 export default function Home() {
   return (
-    <main className="container">
-      <h1>To-Do App</h1>
+    <body>
+      <main className="container">
+        <h1>To-Do App</h1>
 
-      <TaskInput />
-      <TaskList />
-    </main>
+        <TaskInput />
+        <TaskList />
+      </main>
+
+      <Footer />
+    </body>
+
   );
 }
