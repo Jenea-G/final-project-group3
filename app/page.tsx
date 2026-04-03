@@ -11,12 +11,17 @@ export default function Home() {
   const addTask = (task: string) => {
     setTasks([...tasks, task]);
   }
+  const deleteTask = (index: number) => {
+    setTasks(tasks.filter((_, i) => i !== index));
+  };
+
   return (
     <body>
       <main className="container">
         <h1>To-Do App</h1>
         <TaskInput addTask={addTask} />
-        <TaskList tasks={tasks} />
+        <TaskList tasks={tasks} deleteTask={deleteTask} />
+      
       </main>
 
       <Footer />

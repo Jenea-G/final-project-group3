@@ -4,6 +4,9 @@ import "./styles.css";
 
 export default function TaskInput({ addTask }: {addTask: (task: string) => void }) {
   const[task,setTask] = useState("");
+  const deleteTask = (index: number) => {
+  setTasks(tasks.filter((task, i) => i !== index));
+};
 
   const handleAdd = () =>{
     if (task.trim()===""){

@@ -6,7 +6,7 @@
 
 h1 {
     font-size: 40px;
-    color: darkslategrey;
+    color: rgb(12, 65, 65);
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 .task-input .input {
-    border: 1px solid darkslategrey;
+    border: 3px solid rgb(41, 132, 132);
     border-radius: 5px;
     padding: 4px 10px;
     width: 100%;
@@ -47,11 +47,11 @@ button:not(.btn-check):hover {
 }
 
 .btn-delete {
-    background-color: brown;
+    background-color: rgb(231, 53, 53);
 }
 
 .btn-add {
-    background-color: darkslategrey;
+    background-color: rgb(34, 58, 58);
 }
 
 .task-item {
@@ -63,14 +63,14 @@ button:not(.btn-check):hover {
 .btn-check {
     padding: 2px 6px;
     border-radius: 3px;
-    border: 1px solid darkslategrey;
+    border: 1px solid rgb(34, 58, 58);
     margin: 0 10px 10px 0;
 }
 
 .task-text {
     display: inline-block;
     width: calc(100% - 50px);
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid rgb(34, 58, 58);
 }
 
 .task-list {

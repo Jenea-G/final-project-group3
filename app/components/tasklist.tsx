@@ -1,8 +1,13 @@
 "use client";
 import "./styles.css";
 
-export default function TaskList({ tasks }: {tasks:string[]}) {
-    return (
+export default function TaskList({
+tasks,
+deleteTask,
+}: {
+tasks: string[];
+deleteTask: (index: number) => void;
+}) {    return (
         <div className="task-list">
             
             {tasks.map((taskText, index)=>(
@@ -16,7 +21,9 @@ export default function TaskList({ tasks }: {tasks:string[]}) {
 
                 <div className="task-actions">
                     <button className="btn-edit">Edit</button>
-                    <button className="btn-delete">Delete</button>
+                    <button className="btn-delete" onClick={() => deleteTask(index)}>
+            Delete
+            </button>
                 </div>
             </div>
             
