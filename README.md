@@ -48,7 +48,10 @@ Below is the architecture diagram of the application
 A Diagram Image 2
 ## Image2 (In the public file)
 
-<img width="363" height="378" alt="Image2" src="https://github.com/user-attachments/assets/0de8c603-051f-496b-85f3-a64af8ff14e2" />
+
+<img width="786" height="736" alt="Image2" src="https://github.com/user-attachments/assets/e4a6e61b-3b12-4580-8e16-38fe5f286565" />
+
+
 
 ----------------------------------------------------------------------------------------------
 
