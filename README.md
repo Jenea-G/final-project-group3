@@ -20,9 +20,10 @@ Build production (`npm run dev`).
 
 ## App Architecture diagram 
 Below is the architecture diagram of the application
-## Image2 (In the public file)
+## Image1 (In the public file)
 
-<img width="786" height="736" alt="Image2" src="https://github.com/user-attachments/assets/c44318f1-7ba0-404a-b0d1-e24e2926b1d2" />
+<img width="492" height="571" alt="Image1" src="https://github.com/user-attachments/assets/64233a59-03cc-49a7-a358-5622643626a5" />
+
 
 
 ----------------------------------------------------------------------------------------------
